@@ -1,4 +1,35 @@
 body {
     font-size: 18px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header, footer {
+    background-color:pink;
+}
+
+.site-title {
+    color:lightskyblue;
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li:nth-child(odd) {
+    background-color:powderblue;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    background-color:antiquewhite;
+    color:lightskyblue;
+    border-style:outset;
+}
+
+a:hover {
+    color:pink;
 }
